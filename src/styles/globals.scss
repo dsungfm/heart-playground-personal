@@ -1,0 +1,11 @@
+@use "@gfm-heart/tokens" as hrt;
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: hrt.$color-surface-neutral-subtle;
+  color: hrt.$color-text-default;
+}
