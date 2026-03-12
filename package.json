@@ -16,6 +16,12 @@
     "react-dom": "19.2.3",
     "sass": "^1.98.0"
   },
+  "overrides": {
+    "@gfm-heart/components": {
+      "react": "$react",
+      "react-dom": "$react-dom"
+    }
+  },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^19",
